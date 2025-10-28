@@ -17,8 +17,10 @@ BuildRequires:	cmake(Qt6Widgets)
 BuildRequires:	cmake(Qt6OpenGLWidgets)
 BuildRequires:	cmake(Qt6PrintSupport)
 BuildRequires:	cmake(Qt6Svg)
+BuildRequires:	cmake(Qt6Test)
 BuildRequires:	cmake(Qt6Xml)
 BuildRequires:	cmake(OpenCV)
+BuildRequires:	cmake(VulkanHeaders)
 # The build system seems to prefer Qt 5.x unconditionally, so
 # let's just conflict with it to make sure we use 6.x. 5.x is
 # going away soon anyway
